@@ -1,3 +1,5 @@
+from typing import Tuple
+
 def simulate_simple_rolls(faces: int, rolls: int, seed: int | None) -> Tuple[Counter, List[int]]:
     set_seed(seed)
     results = roll_many(rolls, faces)
