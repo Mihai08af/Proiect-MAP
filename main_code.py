@@ -1,3 +1,9 @@
+import argparse
+import random
+import statistics
+from collections import Counter
+from datetime import datetime
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog = "dice_simulator",
@@ -89,4 +95,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
